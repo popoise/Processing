@@ -7,7 +7,7 @@ function setup() {
 
   for(let i=0; i<40; i+=10){// repeating 4 times
     for(let j=0; j<100; j+=20){ // repeating 5 times -> total 20 times
-     let size = (random(1, 300));
+     let size = int(random(1, 300));
       rect(i, j, size, size); 
     }           
   }
